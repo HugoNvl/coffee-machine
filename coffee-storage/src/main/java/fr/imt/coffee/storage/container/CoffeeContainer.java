@@ -1,6 +1,6 @@
-package fr.imt.coffee.storage.cupboard.container;
+package fr.imt.coffee.storage.container;
 
-import fr.imt.coffee.storage.cupboard.coffee.type.CoffeeType;
+import fr.imt.coffee.storage.type.CoffeeType;
 
 public abstract class CoffeeContainer extends Container{
     private final CoffeeType coffeeType;
