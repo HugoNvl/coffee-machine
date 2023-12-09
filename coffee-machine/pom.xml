@@ -4,17 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.imt.cours.coffee-machine-project</groupId>
+    <groupId>fr.imt.cours.IL-Maven-2023</groupId>
     <artifactId>coffee-machine</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>fr.imt.cours.coffee-machine-project</groupId>
-            <artifactId>coffee-storage</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
     <parent>
         <groupId>fr.imt.cours.IL-Maven-2023</groupId>

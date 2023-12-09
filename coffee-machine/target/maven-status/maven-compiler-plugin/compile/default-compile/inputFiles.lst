@@ -1,0 +1,13 @@
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\ElectricalResistance.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\EspressoCoffeeMachine.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\CoffeeGrinder.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\SteamPipe.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\exception\LackOfWaterInTankException.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\CoffeeMachine.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\BeanTank.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\exception\CoffeeTypeCupDifferentOfCoffeeTypeTankException.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\WaterPump.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\exception\CannotMakeCremaWithSimpleCoffeeMachine.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\WaterTank.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\exception\MachineNotPluggedException.java
+C:\Users\hugon\Desktop\coffee-machine-project\coffee-machine\src\main\java\fr\imt\coffee\machine\component\Tank.java
