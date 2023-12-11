@@ -95,10 +95,4 @@ public class CucumberStepsCoffeeMachineMakeACoffeeTest {
         assertThat(containerWithCoffee.getCoffeeType(), is(CoffeeType.valueOf(coffeeType)));
     }
 
-    @Then ("the machine is plugged")
-    public void aMachinePlugged(){
-        Assertions.assertTrue(coffeeMachine.isPlugged());
-    }
-
-
 }
