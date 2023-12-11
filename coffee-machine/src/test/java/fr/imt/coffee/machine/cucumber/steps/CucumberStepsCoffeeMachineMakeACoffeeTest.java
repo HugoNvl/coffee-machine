@@ -29,9 +29,9 @@ public class CucumberStepsCoffeeMachineMakeACoffeeTest {
     public Cup cup;
     public CoffeeContainer containerWithCoffee;
 
-    @Given("a coffee machine with {double} l of min capacity, {double} l of max capacity, {double} l per h of water flow for the pump")
-    public void givenACoffeeMachine(double minimalWaterCapacity, double maximalWaterCapacity, double pumpWaterFlow){
-        coffeeMachine = new CoffeeMachine(minimalWaterCapacity, maximalWaterCapacity, minimalWaterCapacity, maximalWaterCapacity, pumpWaterFlow);
+    @Given("a coffee machine with {double} l of min bean tank capacity, {double} l of max bean tank capacity, {double} l of min water capacity, {double} l of max water capacity, {double} l per h of water flow for the pump")
+    public void givenACoffeeMachine(double minimalBeanTankCapacity, double maximalBeanTankCapacity, double minimalWaterCapacity, double maximalWaterCapacity, double pumpWaterFlow){
+        coffeeMachine = new CoffeeMachine(minimalBeanTankCapacity, maximalBeanTankCapacity, minimalWaterCapacity, maximalWaterCapacity, pumpWaterFlow);
     }
 
     @And("a {string} with a capacity of {double}")
@@ -93,6 +93,11 @@ public class CucumberStepsCoffeeMachineMakeACoffeeTest {
             assertThat(containerWithCoffee, instanceOf(CoffeeCup.class));
 
         assertThat(containerWithCoffee.getCoffeeType(), is(CoffeeType.valueOf(coffeeType)));
+    }
+
+    @Then ("the machine is plugged")
+    public void aMachinePlugged(){
+        Assertions.assertTrue(coffeeMachine.isPlugged());
     }
 
 
